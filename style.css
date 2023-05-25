@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.myaccount{
+    background-color: #7C0B0B;
+    width: 137px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+#hero{
+    background-image: url(./image/Rectangle\ 1.png);
+    height: calc(100vh - 100px);
+    background-size: cover;
+    background-position: center;
+}
+#h2{
+    height: 100px;
+    position: sticky;
+    top: 0px;
+}
+#hero h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+}
+#hero button{
+    background-color: #ffffff;
+    width: 147px;
+    height: 40px;
+    border-radius: 10px;
+    color: #7C0B0B;
+    font-weight: 500;
+}
+#man{
+    width: 463px;
+    height: 42px;
+    font-size: 16px;
+    margin-left: 20px;
+    
+    }
+
+@media(max-width:500px){
+    #hero h1{
+        font-size: 20px;
+    }
+}
+#you p{
+    color: #7C0B0B;
+    border: #7C0B0B 1px solid;
+}
+#iama option{
+    border-radius: 0px;
+    width: 463px;
+    height: 42px;
+}
