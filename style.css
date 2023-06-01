@@ -14,7 +14,7 @@
     border: none;
     color: white;
 }
-nav{
+.whatev{
     position: sticky;
     top: 0px;
 }
@@ -196,8 +196,12 @@ input::placeholder{
 .but{
     display: flex;
     justify-content: space-around;
-   
+    text-decoration: none;
 
+}
+.buts a{
+    text-decoration: none;
+    color: #ffffff;
 }
 .but button{
     background-color: #7C0B0B;
@@ -346,7 +350,7 @@ input::placeholder{
 .flx{
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
+    align-items: center;
 }
 .members1{
     display: flex;
@@ -359,10 +363,12 @@ input::placeholder{
 .pad{
     display: flex;
     flex-direction: column;
-}
+    align-items: center;
+    }
+
 .red{
     height: 300px;
-    width: 300px;
+    width: 500px;
 }
 .form2{
     padding: 0px;
@@ -383,9 +389,10 @@ input::placeholder{
     flex-direction: row;
 }
 .form{
-    width: 300px;
+    width: 400px;
     margin-left: 10px;
     height: 450px;
+    align-items: center;
 }
 #whatareyou{
     width: 90%;
@@ -408,7 +415,7 @@ input::placeholder{
 }
 .group {
     border: 1px solid #7C0B0B;
-    width: 300px;
+    width: 350px;
     height: 328px;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -421,17 +428,19 @@ input::placeholder{
 .members2 {
     padding-left: 10px;
     padding-right: 10px;
+    align-items: center;
     
 }
 .members1 {
     padding-left: 10px;
     padding-right: 10px;
+    align-items: center;
 }
 .back{
     margin-top: 20px;
 }
 .elli1{
-    width: 300px;
+    width: 350px;
     margin-left: 0px;
     padding-right: 10px;
     margin-bottom: 30px;
@@ -440,14 +449,14 @@ input::placeholder{
 .elli{
     padding-bottom: 20px;
 }
-.pad{
-    padding-left: 10px;
-}
+   
 .news{
-    width: 290px;
+    width: 450px;
+    align-items: center;
+    margin-left: 10px;
 }
 .letter{
-    width: 100px;
+    width: 120px;
 }
 .suba{
     padding-top: 10px;
