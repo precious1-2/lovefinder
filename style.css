@@ -329,6 +329,18 @@ input::placeholder{
     padding-left: 100px;
     padding-right: 99px;
 }
+.join a{
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+.join{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
 @media(max-width:500px){
     #hero h1{
         font-size: 20px;
@@ -368,7 +380,7 @@ input::placeholder{
 
 .red{
     height: 300px;
-    width: 500px;
+    width: 100%;
 }
 .form2{
     padding: 0px;
@@ -381,7 +393,7 @@ input::placeholder{
 }
 .grp1{
     padding-left: 0px;
-    width: 200px;
+    width: 400px;
     height: 50px;
 }
 .rwe{
