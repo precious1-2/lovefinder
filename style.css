@@ -314,10 +314,7 @@ input::placeholder{
     height: 112px;
     border-radius: 30px;  
 }
-.grp1 h5{
-    margin-bottom: px;
-    padding-left: 50px;
-}
+
 .last a{
     color: #ffffff;
     text-decoration: none;
@@ -368,6 +365,23 @@ input::placeholder{
     display: flex;
     flex-direction: row;
     
+}
+.grp1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 56.97px;
+    padding-top: 37px;
+}
+.grp1 button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.grp1 button{
+    background-color: #7C0B0B;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 144.32px;
 }
 
 @media(max-width:500px){
@@ -428,9 +442,9 @@ input::placeholder{
     height: 100px;
 }
 .form{
-    width: 400px;
+    width: 500px;
     margin-left: 10px;
-    height: 450px;
+    height: 500px;
     align-items: center;
 }
 #whatareyou{
