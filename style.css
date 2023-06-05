@@ -462,7 +462,7 @@ input::placeholder{
     align-items: center;
 }
 #whatareyou{
-    width: 85%;
+    width: 90%;
 }
 .rectangle4 img{
     width: fit-content;
@@ -536,11 +536,7 @@ input::placeholder{
 .suba{
     padding-top: 10px;
 }
-.form{
-    height: 650px;
-    width: 270px;
-    align-items: center;
-}
+
 .yeas{
     padding-top: 20px;
 }
