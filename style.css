@@ -519,7 +519,7 @@ input::placeholder{
 }
    
 .news{
-    width: 280px;
+    width: 300px;
     align-items: center;
     margin-left: 10px;
     margin-right: 10px;
@@ -527,6 +527,7 @@ input::placeholder{
 .letter{
     width: 120px;
     margin-top: 30px;
+    margin-left: 30px;
 }
 .form2{
     display: flex;
